@@ -11,7 +11,6 @@ Ce mémo regroupe les commandes essentielles et les bonnes pratiques pour utilis
 5. [Connexion à la Machine Virtuelle](#connexion-à-la-machine-virtuelle)
 6. [Exemple de Vagrantfile](#exemple-de-vagrantfile)
 7. [Dépannage et Astuces](#dépannage-et-astuces)
-8. [Fichiers Utiles pour GitHub](#fichiers-utiles-pour-github)
 
 ---
 
@@ -165,25 +164,6 @@ vagrant up --provider=vmware_desktop
 
 ---
 
-## 📂 Fichiers Utiles pour GitHub
-
-Ajoute ces fichiers à ton repo pour retrouver facilement tes configs :
-
-```
-📦 mon_projet_vagrant/
- ├── 📄 README.md  # Ce mémo !
- ├── 📄 Vagrantfile  # Config de ta VM
- ├── 📄 ssh-config  # Généré avec `vagrant ssh-config`
- ├── 📂 data/  # Dossier partagé avec la VM
-```
-
-**Générer `ssh-config` et l'ajouter au repo :**
-```sh
-vagrant ssh-config > ssh-config
-```
-
----
-
 ## 🎯 Ressources Utiles
 
 - 🌐 [Vagrant Documentation Officielle](https://developer.hashicorp.com/vagrant)
@@ -194,11 +174,10 @@ vagrant ssh-config > ssh-config
 
 ### 📌 Conclusion
 
-Avec ce mémo et ton repo GitHub, tu peux **facilement recréer une machine virtuelle Vagrant** en quelques commandes ! 🚀
+Ce mémo Vagrant a pour but de simplifier et accélérer la création de machines virtuelles en fournissant une référence claire et concise des commandes essentielles.
 
-```sh
-git clone https://github.com/ton-utilisateur/mon_projet_vagrant.git
-cd mon_projet_vagrant
-vagrant up
-vagrant ssh
-```
+Grâce à ce guide, tu peux :
+✅ Initialiser rapidement un environnement Vagrant depuis n'importe où.
+✅ Gérer efficacement tes machines virtuelles (démarrage, arrêt, destruction, mise à jour).
+✅ Configurer et personnaliser tes VMs avec un Vagrantfile adapté à tes besoins.
+✅ Faciliter la gestion des connexions SSH et des fichiers partagés.
