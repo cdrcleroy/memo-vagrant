@@ -177,7 +177,7 @@ vagrant up --provider=vmware_desktop
 Ce mémo Vagrant a pour but de simplifier et accélérer la création de machines virtuelles en fournissant une référence claire et concise des commandes essentielles.
 
 Grâce à ce guide, tu peux :
-✅ Initialiser rapidement un environnement Vagrant depuis n'importe où.
-✅ Gérer efficacement tes machines virtuelles (démarrage, arrêt, destruction, mise à jour).
-✅ Configurer et personnaliser tes VMs avec un Vagrantfile adapté à tes besoins.
-✅ Faciliter la gestion des connexions SSH et des fichiers partagés.
+- ✅ Initialiser rapidement un environnement Vagrant depuis n'importe où.
+- ✅ Gérer efficacement tes machines virtuelles (démarrage, arrêt, destruction, mise à jour).
+- ✅ Configurer et personnaliser tes VMs avec un Vagrantfile adapté à tes besoins.
+- ✅ Faciliter la gestion des connexions SSH et des fichiers partagés.
