@@ -11,10 +11,11 @@ Ce mémo regroupe les commandes essentielles et les bonnes pratiques pour utilis
 5. [Connexion à la Machine Virtuelle](#connexion-à-la-machine-virtuelle)
 6. [Exemple de Vagrantfile](#exemple-de-vagrantfile)
 7. [Dépannage et Astuces](#dépannage-et-astuces)
+8. [Ressources utiles](#ressources-utiles)
 
 ---
 
-## 🏗 Installation et Prérequis
+## 🏗 <a name="installation-et-prérequis"></a>Installation et Prérequis
 
 ### 1️⃣ Installer Vagrant et VirtualBox
 
@@ -31,7 +32,7 @@ virtualbox --help
 
 ---
 
-## 🚀 Création d'une Machine Virtuelle
+## 🚀 <a name="installation-et-prérequis"></a>Création d'une Machine Virtuelle
 
 ### 1️⃣ Initialiser Vagrant
 Créer un dossier dédié et y initialiser un environnement Vagrant :
@@ -74,7 +75,7 @@ vagrant ssh
 
 ---
 
-## 🔄 Gestion des Machines Virtuelles
+## 🔄 <a name="gestion-des-machines-virtuelles"></a>Gestion des Machines Virtuelles
 
 | Commande | Description |
 |----------|------------|
@@ -87,7 +88,7 @@ vagrant ssh
 
 ---
 
-## 📦 Gestion des Images (Boxes)
+## 📦 <a name="gestion-des-images-boxes"></a>Gestion des Images (Boxes)
 
 | Commande | Description |
 |----------|------------|
@@ -98,7 +99,7 @@ vagrant ssh
 
 ---
 
-## 🔌 Connexion à la Machine Virtuelle
+## 🔌 <a name="connexion-à-la-machine-virtuelle"></a>Connexion à la Machine Virtuelle
 
 | Commande | Description |
 |----------|------------|
@@ -112,7 +113,7 @@ ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.33.10
 
 ---
 
-## 📝 Exemple de `Vagrantfile`
+## 📝 <a name="exemple-de-vagrantfile"></a>Exemple de `Vagrantfile`
 
 Voici un exemple fonctionnel de **Vagrantfile** avec :
 - Une image Debian 12
@@ -138,7 +139,7 @@ end
 
 ---
 
-## 🛠 Dépannage et Astuces
+## 🛠 <a name="dépannage-et-astuces"></a>Dépannage et Astuces
 
 ### 📌 Problème de permissions sur un dossier partagé
 Ajouter cette ligne dans `Vagrantfile` :
@@ -164,7 +165,7 @@ vagrant up --provider=vmware_desktop
 
 ---
 
-## 🎯 Ressources Utiles
+## 🎯 <a name="ressources-utiles"></a>Ressources Utiles
 
 - 🌐 [Vagrant Documentation Officielle](https://developer.hashicorp.com/vagrant)
 - 🌍 [Vagrant Cloud (catalogue des images)](https://app.vagrantup.com/boxes/search)
