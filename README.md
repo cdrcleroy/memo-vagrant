@@ -32,7 +32,7 @@ virtualbox --help
 
 ---
 
-## 🚀 <a name="installation-et-prérequis"></a>Création d'une Machine Virtuelle
+## 🚀 <a name="création-dune-machine-virtuelle"></a>Création d'une Machine Virtuelle
 
 ### 1️⃣ Initialiser Vagrant
 Créer un dossier dédié et y initialiser un environnement Vagrant :
